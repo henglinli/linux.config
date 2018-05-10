@@ -1,0 +1,3 @@
+media-sound/pulseaudio bluetooth dbus -tcpd -ipv6 -ssl -orc -asyncns -glib -webrtc-aec -native-headset -alsa-plugin
+media-sound/alsa-utils -libsamplerate
+media-libs/libsndfile -alsa

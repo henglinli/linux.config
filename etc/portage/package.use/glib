@@ -1,0 +1,2 @@
+dev-libs/glib dbus
+net-libs/glib-networking -libproxy

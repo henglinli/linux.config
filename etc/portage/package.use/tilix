@@ -1,0 +1,7 @@
+x11-terms/tilix dmd-2_074 -crypt
+dev-libs/gtkd dmd-2_074 vte
+x11-libs/vte -crypt
+dev-libs/libpcre2 -bzip2 -pcre32 -zlib -readline
+
+
+

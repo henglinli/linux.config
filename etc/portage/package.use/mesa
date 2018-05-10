@@ -1,0 +1,1 @@
+media-libs/mesa -classic -dri3 -llvm gallium gles2  

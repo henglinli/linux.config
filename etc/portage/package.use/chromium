@@ -1,0 +1,8 @@
+www-client/chromium -hangouts -system-ffmpeg -system-libvpx -system-icu
+browser/chromium -hangouts -system-ffmpeg -system-libvpx -system-icu
+media-libs/openh264 -plugin
+net-libs/nodejs -npm
+net-libs/nghttp2 -cxx
+www-plugins/adobe-flash -nsplugin
+dev-libs/libxml2 icu
+

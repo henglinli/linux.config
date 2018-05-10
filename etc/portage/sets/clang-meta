@@ -1,0 +1,11 @@
+sys-devel/llvm-common
+sys-devel/llvm
+sys-devel/llvmgold
+sys-libs/llvm-libunwind
+sys-libs/libcxxabi
+sys-libs/compiler-rt-sanitizers
+sys-libs/compiler-rt
+sys-libs/libcxx
+sys-devel/clang-runtime
+sys-devel/clang
+sys-devel/lld

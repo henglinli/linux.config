@@ -1,0 +1,2 @@
+sys-apps/systemd -lz4 -seccomp -gcrypt -ssl -kmod -pcre -sysv-utils
+sys-auth/polkit jit

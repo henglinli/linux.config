@@ -1,0 +1,3 @@
+app-crypt/gnupg -gnutls
+app-crypt/pinentry -gnome-keyring -gtk caps ncurses
+

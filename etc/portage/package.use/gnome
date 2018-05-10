@@ -1,0 +1,9 @@
+gnome-base/gnome-shell -networkmanager
+gnome-base/gnome-control-center -colord -gnome-online-accouts -networkmanager
+gnome-base/gvfs udisks gtk
+app-crypt/pinentry gnome-keyring gtk -ncurses
+gnome-base/nautilus -tracker -previewer
+app-text/evince -gstreamer -postscript -tiff -gnome -gnome-keyring -introspection
+app-crypt/gcr gtk
+dev-libs/libxml2 python
+gnome-base/gdm -ipv6 -plymouth

@@ -1,0 +1,2 @@
+app-shells/zsh -gdbm caps -pcre static
+app-shells/bash -net

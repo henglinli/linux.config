@@ -1,0 +1,36 @@
+diff --git a/libweston/launcher-direct.c b/libweston/launcher-direct.c
+index 29d9c28..b58fdfe 100644
+--- a/libweston/launcher-direct.c
++++ b/libweston/launcher-direct.c
+@@ -31,6 +31,7 @@
+ #include <signal.h>
+ #include <sys/stat.h>
+ #include <sys/ioctl.h>
++#include <sys/sysmacros.h>
+ #include <linux/vt.h>
+ #include <linux/kd.h>
+ #include <linux/major.h>
+diff --git a/libweston/launcher-logind.c b/libweston/launcher-logind.c
+index 8d5e8f9..20cb193 100644
+--- a/libweston/launcher-logind.c
++++ b/libweston/launcher-logind.c
+@@ -35,6 +35,7 @@
+ #include <stdlib.h>
+ #include <string.h>
+ #include <sys/stat.h>
++#include <sys/sysmacros.h>
+ #include <systemd/sd-login.h>
+ #include <unistd.h>
+ 
+diff --git a/libweston/weston-launch.c b/libweston/weston-launch.c
+index 140fde1..eecb911 100644
+--- a/libweston/weston-launch.c
++++ b/libweston/weston-launch.c
+@@ -42,6 +42,7 @@
+ #include <sys/wait.h>
+ #include <sys/socket.h>
+ #include <sys/signalfd.h>
++#include <sys/sysmacros.h>
+ #include <signal.h>
+ #include <unistd.h>
+ #include <fcntl.h>

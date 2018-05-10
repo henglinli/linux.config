@@ -1,0 +1,14 @@
+#--*--coding:utf-8-unix;--*--
+LLVM_ROOT=/usr/local/llvm
+LLVM_BIN=${LLVM_ROOT}/bin
+LLVM_LIB=${LLVM_ROOT}/lib
+export LD_LIBRARY_PATH=${LLVM_LIB}
+CC="${LLVM_BIN}/clang"
+CXX="${LLVM_BIN}/clang++"
+CFLAGS="-O2 -pipe -fPIC"
+CXXFLAGS="${CFLAGS} -fno-rtti -stdlib=libc++"
+LDFLAGS="-Wl,-O2 -Wl,--as-needed -lunwind -lpthread -ldl"
+AR="${LLVM_BIN}/llvm-ar"
+NM="${LLVM_BIN}/llvm-nm"
+RANLIB="${LLVM_BIN}/llvm-ranlib"
+AS="${LLVM_BIN}/llvm-as"

@@ -1,0 +1,2 @@
+dev-libs/libevent -threads -ssl static-libs
+

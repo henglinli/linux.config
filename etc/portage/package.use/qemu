@@ -1,0 +1,3 @@
+app-emulation/qemu -bluetooth -curl -fdt -caps -jpeg -ncurses -png -pulseaudio -vnc -xattr -bzip2
+app-emulation/qemu ncurses
+dev-libs/libpcre2 -pcre16 -bzip2 -readline -zlib

@@ -1,0 +1,2 @@
+net-wireless/aircrack-ng -pcre -sqlite -experimental -airdrop-ng
+net-libs/libpcap -bluetooth netlink

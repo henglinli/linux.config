@@ -1,0 +1,3 @@
+media-video/ffmpeg pic -zlib -bzip2 -encode -network -postproc -iconv -webp -alsa -pulseaudio chromium
+media-video/libav -alsa -bzip2 -encode -network -ssl -zlib
+media-video/mpv -alsa -iconv -libass -uchardet -xv -zlib

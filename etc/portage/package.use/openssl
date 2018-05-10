@@ -1,0 +1,2 @@
+dev-libs/openssl -sslv3 -zlib static-libs
+

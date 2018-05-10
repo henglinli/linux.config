@@ -1,0 +1,2 @@
+net-wireless/wpa_supplicant -hs2-0 -ssl
+dev-lang/swig -pcre

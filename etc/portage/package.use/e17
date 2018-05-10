@@ -1,0 +1,7 @@
+x11-wm/enlightenment:0.17 ukit
+dev-libs/efl egl gles drm -psd -ppm -ico -bmp -ssl sound luajit
+lib/efl egl gles drm -psd -ppm -ico -bmp -ssl sound
+
+
+
+

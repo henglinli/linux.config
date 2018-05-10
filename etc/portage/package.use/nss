@@ -1,0 +1,3 @@
+dev-libs/nss -nss-pem
+dev-db/sqlite -readline
+

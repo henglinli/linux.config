@@ -1,0 +1,2 @@
+app-editors/emacs -xpm X -alsa acl -gtk3 -zlib dynamic-loading xft
+app-emacs/emacs-common-gentoo X

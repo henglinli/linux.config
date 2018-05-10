@@ -1,0 +1,8 @@
+dev-libs/libpcre2 pcre16
+dev-util/scons python_targets_python2_7
+#
+dev-qt/qtwidgets -xcb gles2
+dev-qt/qtdeclarative gles2
+dev-qt/qtgui egl eglfs gles2 libinput jpeg dbus -gif -xcb 
+dev-qt/qtcore icu
+

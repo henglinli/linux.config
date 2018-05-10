@@ -1,0 +1,2 @@
+# package.accept_keywords# required by =gcc-6.3.0 (argument)
+<=sys-devel/gcc-7.9.9 **

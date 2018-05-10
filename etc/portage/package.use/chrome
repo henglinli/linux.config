@@ -1,0 +1,4 @@
+app-text/poppler -jpeg -jpeg2k cxx
+net-print/cups -ssl -systemd -acl -pam -threads
+net-print/cups-filters -foomatic
+media-libs/lcms -threads

@@ -1,0 +1,5 @@
+sys-devel/gcc -fortran go cxx
+sys-devel/binutils static-libs
+
+
+

@@ -1,0 +1,24 @@
+# pass1: gcc
+#sys-devel/llvm gcc
+#sys-devel/clang gcc
+#sys-libs/libcxx gcc
+#sys-devel/clang-runtime
+#sys-libs/libcxxabi gcc
+#sys-libs/compiler-rt gcc
+#sys-libs/compiler-rt-sanitizers gcc
+#sys-libs/llvm-libunwind gcc
+#sys-devel/lld gcc
+#sys-devel/lldb gcc
+# pass2: clang
+sys-devel/llvm-common clang
+sys-devel/llvm-gold clang
+sys-devel/llvm clang
+sys-devel/clang clang
+sys-libs/libcxx clang
+sys-devel/clang-runtime clang
+sys-libs/libcxxabi clang
+sys-libs/compiler-rt clang
+sys-libs/compiler-rt-sanitizers clang
+sys-libs/llvm-libunwind clang
+sys-devel/lld clang
+dev-util/lldb clang

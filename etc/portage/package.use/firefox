@@ -1,0 +1,6 @@
+www-client/firefox hwaccel nsplugin gold
+www-client/seamonkey -calendar -chatzilla -crypt -roaming force-gtk3
+browser/firefox hwaccel nsplugin gold
+
+
+

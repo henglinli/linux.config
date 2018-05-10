@@ -1,0 +1,2 @@
+dev-util/cmake -qt5
+app-arch/libarchive -acl -bzip2 -iconv -lzma -xattr -zlib

@@ -1,0 +1,3 @@
+dev-lang/python -ipv6 -ncurses -readline ssl xml
+sys-libs/gdbm berkdb
+
