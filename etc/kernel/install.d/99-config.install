@@ -19,10 +19,11 @@ MACHINE_ID=$KERNEL_INSTALL_MACHINE_ID
 
 BOOT_DIR="/$MACHINE_ID/$KERNEL_VERSION"
 BOOT_ROOT=${BOOT_DIR_ABS%$BOOT_DIR}
-CONF="$BOOT_ROOT/$KERNEL_VERSION.conf"
+
+CONFIG="$BOOT_DIR_ABS/config"
 
 if [[ $COMMAND == remove ]]; then
-    exec rm -f "$CONF"
+    exec rm -f "$CONFIG"
 fi
 
 if ! [[ $COMMAND == add ]]; then
@@ -35,8 +36,8 @@ fi
 
 
 if [[ -f .config ]]; then
-    echo "cp .config $CONF"
-    cp .config $CONF
+    echo "cp .config $CONFIG"
+    cp .config $CONFIG
 fi
 
 exit 0
