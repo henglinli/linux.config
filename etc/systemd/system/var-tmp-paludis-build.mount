@@ -21,8 +21,7 @@ After=swap.target
 What=tmpfs
 Where=/var/tmp/paludis/build
 Type=tmpfs
-Options=mode=1777,strictatime,nosuid,nodev,gid=443
-DirectoryMode=775
+Options=mode=1575,strictatime,nosuid,nodev,gid=443
 
 [Install]
 WantedBy=local-fs.target
