@@ -1,1 +1,1 @@
-root=PARTUUID=f0db77e4-6f83-4c85-b6d7-135c9b0582c9 rw rootfstype=btrfs rootflags=subvol=exherbo,autodefrag,compress=lzo init=/lib/systemd/systemd
+root=PARTUUID=f0db77e4-6f83-4c85-b6d7-135c9b0582c9 rw rootfstype=btrfs rootflags=subvol=exherbo,autodefrag,compress=lzo init=/usr/lib/systemd/systemd
