@@ -1,0 +1,9 @@
+[Match]
+Name=wlp3s0
+[Network]
+DHCP=ipv4
+DNS=84.200.69.80 84.200.70.40
+#DNSSEC=yes
+[DHCP]
+UseDNS=no
+
