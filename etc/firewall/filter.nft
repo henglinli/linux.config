@@ -1,0 +1,25 @@
+#!/usr/sbin/nft -f
+flush ruleset
+# inet filter
+table inet filter {
+      chain output {
+      	    type filter hook output priority 0; policy accept;
+	    counter comment "count accepted packets"
+      }
+      chain forward {
+      	    type filter hook forward priority 0; policy drop;
+	    counter comment "count dropped packets"
+      }
+      chain input {
+      	    type filter hook input priority 0; policy drop;
+	    ct state invalid counter drop comment "drop invalid packets"
+	    ct state {established, related} counter accept comment "accept all connections related to connections made by self"
+	    iifname lo accept comment "accept loopback"
+	    iifname != lo ip daddr 127.0.0.1/8 counter drop comment "drop connections to loopback nto comming from loopback"
+	    iifname != lo ip6 daddr ::1/128 counter drop comment "drop connections to loopback not comming from loopback"
+	    ip protocol icmp counter accept comment "accept all icmp types"
+	    ip6 nexthdr icmpv6 counter accept comment "accept all icmpv6 types"
+	    tcp dport 22 counter accept comment "accept ssh(port 22)"
+	    counter comment "count accepted packets"
+      }
+}
